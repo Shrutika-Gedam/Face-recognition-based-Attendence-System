@@ -25,19 +25,5 @@ Python 3.x
 Git (optional, but recommended for cloning the repository)
 MongoDB Atlas Account (Free tier is sufficient)
 
-📂 Project Structure
-Attendence System
-├── main.py                                                                                                                                                                                                          
-├── database.py
-├── requirements.txt
-├── templates/
-│   └── index.html
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── scripts.js
-├── dataset/
-└── models/
-    └── haarcascade_frontalface_default.xml
+![Screenshot of the attendance system](images/structure.png)
 
