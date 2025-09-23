@@ -22,8 +22,11 @@ Status Feedback: The user interface updates to show a confirmation message, such
 🛠️ Requirements
 Before you begin, ensure you have the following installed:
 Python 3.x
+
 Git (optional, but recommended for cloning the repository)
+
 MongoDB Atlas Account (Free tier is sufficient)
+
 
 ![Screenshot of the attendance system](images/structure.png)
 
