@@ -27,7 +27,7 @@ MongoDB Atlas Account (Free tier is sufficient)
 
 📂 Project Structure
 Attendence System
-├── main.py
+├── main.py                                                                                                                                                                                                          
 ├── database.py
 ├── requirements.txt
 ├── templates/
