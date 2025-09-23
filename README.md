@@ -26,20 +26,18 @@ Git (optional, but recommended for cloning the repository)
 MongoDB Atlas Account (Free tier is sufficient)
 
 📂 Project Structure
-├── main.py                 # Main Flask application and server logic
-├── database.py             # Handles all database operations with MongoDB
-├── requirements.txt        # Python dependencies
+Attendence System
+├── main.py
+├── database.py
+├── requirements.txt
 ├── templates/
-│   └── index.html          # Frontend HTML for the web interface
+│   └── index.html
 ├── static/
 │   ├── css/
-│   │   └── style.css       # Frontend styling
+│   │   └── style.css
 │   └── js/
-│       └── scripts.js      # Frontend JavaScript for interactivity
-├── dataset/                # Stores student face images
+│       └── scripts.js
+├── dataset/
 └── models/
-    └── haarcascade_frontalface_default.xml # OpenCV face detection model
+    └── haarcascade_frontalface_default.xml
 
-Git (optional, but recommended for cloning the repository)
-
-MongoDB Atlas Account (Free tier is sufficient)
