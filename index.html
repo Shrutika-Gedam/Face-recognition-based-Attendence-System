@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Attendance System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Face Detection Attendance</h1>
+        
+        <div class="main-content">
+            <img id="video-feed" src="{{ url_for('video_feed') }}" alt="Live Camera Feed">
+            
+            <div class="side-panel">
+                <div class="controls">
+                    <div class="card">
+                        <h2>New Student Registration</h2>
+                        <input type="text" id="nameInput" placeholder="Enter name">
+                        <button id="registerBtn">Register</button>
+                    </div>
+
+                    <div class="card">
+                        <h2>Mark Attendance</h2>
+                        <button id="attendanceBtn">Start Attendance</button>
+                    </div>
+                </div>
+
+                <div class="status-box">
+                    <p id="status">Status: Ready</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
